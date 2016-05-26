@@ -2,8 +2,8 @@
 title: unspecified
 email: me@csell.net
 description: |
-  asdf
-  line two.
+  asdf   
+  line two.   
   enjoy clark.
 owner: Clark Sell
 baseurl: "" # the subpath of your site, e.g. /blog
