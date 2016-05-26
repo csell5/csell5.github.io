@@ -2,10 +2,9 @@
 title: unspecified
 email: me@csell.net
 description: |
-  asdf
-  adsf 2
+  asdf /n
+  adsf 2 /n
   Enjoy, Clark
-
 owner: Clark Sell
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://unspecified.io" # the base hostname & protocol for your site
