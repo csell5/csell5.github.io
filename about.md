@@ -3,6 +3,7 @@ layout: page
 title: About Me
 subTitle: My Name is Clark Sell
 permalink: /about/
+menu_name: About Me
 ---
 
 # Who Am I?
