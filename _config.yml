@@ -1,27 +1,26 @@
 # Site settings
-title: unspecified by Clark Sell
+title: unspecified
 email: me@csell.net
 description: |
-  Sharing the passion...
-  Tech * Fabrication * BBQ
-  Website being launched soon. -Clark
+  Tech * BBQ * Fabrication * Family
 owner: Clark Sell
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://unspecified.io" # the base hostname & protocol for your site
 
 social:
-  twitter: https://twitter.com/csell5
   github: https://github.com/csell5
-  #linkedin-square: https://linkedin.com/in/<username>
+  twitter: https://twitter.com/csell5
+  youtube-play: https://www.youtube.com/channel/UC5GVZFxKYul4cfsfhVAJGIA
+  linkedin-square: https://linkedin.com/in/clarksell
+  instagram: https://www.instagram.com/clarksell/
   #facebook-official: https://facebook.com/<username>
-  #google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
+  snapchat-ghost: http://snapchat.com/add/user/csell5
+  medium: https://medium.com/@clarksell
+  email: /contact/
 
 twitter_username: csell5
 github_username:  csell5
+
 
 # Build settings
 markdown: kramdown
