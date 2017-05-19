@@ -1,11 +1,11 @@
 # Site settings
 title: unspecified
 email: me@csell.net
-description: |
-  Tech * BBQ * Fabrication * Family
+description: Software // Tech // Fabrication // BBQ
 owner: Clark Sell
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://unspecified.io" # the base hostname & protocol for your site
+image: "/images/banner.jpg"
 
 social:
   github: https://github.com/csell5
