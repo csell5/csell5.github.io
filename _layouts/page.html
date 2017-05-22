@@ -3,7 +3,7 @@ layout: default
 ---
 <article id="main">
 
-  <header>
+  <header style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url({% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.image | prepend: site.url }}{% endif %});" >
     <h2>{{ page.title }}</h2>
     <p>{{ page.subTitle }}</p>
   </header>

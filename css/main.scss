@@ -8,7 +8,6 @@ $baseurl: '{{ site.baseurl }}';
 $bannerImage: '{{ page.image }}';
 */
 
-
 $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}';
 
 
@@ -16,7 +15,7 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,400,400italic,600,600italic,800,800italic');
 
 /*
 	Spectral by HTML5 UP
@@ -60,21 +59,21 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 15pt;
+		font-size: 13pt;
 		font-weight: _font(weight);
-		letter-spacing: _size(letter-spacing);
-		line-height: 1.65em;
+		letter-spacing: _size(letter-spacing-normal);
+		line-height: 1.45em;
 
 		@include breakpoint(xlarge) {
-			font-size: 13pt;
-		}
-
-		@include breakpoint(large) {
 			font-size: 12pt;
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint(large) {
 			font-size: 11pt;
+		}
+
+		@include breakpoint(small) {
+			font-size: 10pt;
 			letter-spacing: _size(letter-spacing) * 0.5;
 		}
 	}
@@ -810,6 +809,10 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 				border-top: 0;
 			}
 		}
+
+		&.bare {
+			border-collapse: separate;
+		}
 	}
 
 /* Button */
@@ -1194,6 +1197,20 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 						tr {
 							td {
 								border-color: _palette($p, border);
+							}
+						}
+					}
+				}
+
+				&.bare {
+					tbody {
+						tr {
+							&:nth-child(2n + 1) {
+								background-color: transparent;
+							}
+
+							td {
+								border-color: transparent;
 							}
 						}
 					}
@@ -1699,8 +1716,10 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 			text-align: center;
 
 			h2 {
-				font-size: 1.75em;
+				font-size: 2.5em;
+				letter-spacing: _size(letter-spacing-header);
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
+				text-transform: none;
 			}
 
 			p {
@@ -1846,5 +1865,26 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 			#footer {
 				background-color: darken(_palette(bg), 8);
 			}
+		}
+	}
+
+
+	#experiences {
+
+		.companyRow {
+		    font-weight: bold;
+		}
+
+		.companyRow td {
+		    padding-top: 100px;
+		}
+
+		.companyTitleRow .title {
+		    font-weight: bold;
+		}
+
+		ul {
+		    padding-left: 50px;
+		    list-style-type:  disc;
 		}
 	}
