@@ -3,17 +3,12 @@
 ---
 
 $baseurl: '{{ site.baseurl }}';
-
-/*
-$bannerImage: '{{ page.image }}';
-*/
-
 $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}';
-
 
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/unspecified_mixins';
 @import 'font-awesome.min.css';
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,400,400italic,600,600italic,800,800italic');
 
@@ -1868,23 +1863,5 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 		}
 	}
 
-
-	#experiences {
-
-		.companyRow {
-		    font-weight: bold;
-		}
-
-		.companyRow td {
-		    padding-top: 100px;
-		}
-
-		.companyTitleRow .title {
-		    font-weight: bold;
-		}
-
-		ul {
-		    padding-left: 50px;
-		    list-style-type:  disc;
-		}
-	}
+	//Unspecified Additions
+	@import 'unspecified';
