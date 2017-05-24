@@ -7,16 +7,16 @@
   <meta name="keywords" content="Clark Sell, That Conference, Software Architecture, Software Developer" />
 
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
-  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:url" content="{{ site.url | append: page.url }}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncaog: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.image | prepend: site.url }}{% endif %}" />
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
   <meta property="og:site_name" content="Unspecified by Clark Sell" />
 
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:site" content="@csell5"/>
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"/>
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.image | prepend: site.url }}{% endif %}"/>
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}"/>
 
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />

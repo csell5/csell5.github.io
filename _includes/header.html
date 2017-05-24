@@ -11,7 +11,7 @@
             {% for my_page in site.pages %}
 
               {% if my_page.menu_name %}
-                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu_name }}</a></li>
+                <li><a href="{{ my_page.url | prepend: site.baseurl | remove: '.html' }}">{{ my_page.menu_name }}</a></li>
               {% endif %}
             {% endfor %}
 
