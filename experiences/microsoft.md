@@ -5,7 +5,7 @@ title: Clark Sell @ Microsoft
 subTitle: 9 Years That Started in Consulting and ended in Program Management
 excerpt: 9 Years That Started in Consulting and ended in Program Management
 
-permalink: /resume/microsoft
+permalink: /experiences/microsoft
 image: /images/banner-02.jpg
 ---
 

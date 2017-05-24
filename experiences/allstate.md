@@ -5,7 +5,7 @@ title: Clark Sell @ Allstate Insurance
 subTitle: 9 Years That Started in Consulting and ended in Program Management
 excerpt: 9 Years That Started in Consulting and ended in Program Management
 
-permalink: /resume/allstate
+permalink: /experiences/allstate
 image: /images/banner-02.jpg
 ---
 
