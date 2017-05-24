@@ -17,13 +17,14 @@ abstract about my time at Microsoft
 
 * something
 
+<hr />
+
 ## Roles and Responsibilities
 
+<div class="job-role-date">July 2013 - May 2014</div>
 ### Senior Program Manager
 
-**Developer Platform and Evangelism's TED (Corp)**
-
-_July 2013 - May 2014_
+_Developer Platform and Evangelism's TED (Corp)_
 
 As a Program Manager in TED, my main responsibilities are two fold. First and foremost, partner with Microsoft's top commercial ISVs to aid in shipping their top mission critical products on top of Microsoft's cloud and mobile platform. The other half of the job is spent working with the larger team in creating solutions and frameworks to fill potential product gaps or things that will aid in the adoption of our product. Notable activities included:
 
@@ -32,11 +33,10 @@ As a Program Manager in TED, my main responsibilities are two fold. First and fo
 * Product and Design Reviews.
 * Partner with other members of TED to build out solutions and frameworks.
 
+<div class="job-role-date">November 2009 - July 2013</div>
 ### Senior Technical Web and Mobile Evangelist
 
-**Developer Platform and Evangelism (Field)**
-
-_November 2009 - July 2013_
+_Developer Platform and Evangelism (Field)_
 
 As a technical evangelist I was charged with supporting Microsoft’s web strategy specifically around HTML5. This includes supporting ASP.NET, WebMatrix and the new Windows 8 for our community, customer and garage developers. Notable activities included:
 
@@ -49,13 +49,12 @@ As a technical evangelist I was charged with supporting Microsoft’s web strate
 * 31 Days of Windows 8 - a blog series writing 31 articles surrounding development for Windows 8.
 * 10 city Web Camp tour reaching over 1k developers.
 
+<div class="job-role-date">July 2005 - November 2009</div>
 ### Senior Consultant II
 
-**Microsoft Consulting Services**
+_Microsoft Consulting Services_
 
-_July 2005 - November 2009_
-
-Notable Projects
+Notable Projects:
 
 **Microsoft TFS Jumpstart Kit** – Founder, Solutions Architect, and Developer. Designed and built to aid the adoption of TFS by closing the current product gaps by extending features for application build and deployment. Major features included but are not limited to:
 * Application Versioning.
