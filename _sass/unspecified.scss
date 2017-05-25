@@ -280,3 +280,14 @@ $L:     1170px;
   //top: 2em;
   opacity: .7;
 }
+
+.shadowed {
+
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px #000);
+
+    //-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    //filter: url(#drop-shadow);
+    //-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    //filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
