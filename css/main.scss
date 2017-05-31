@@ -1526,6 +1526,27 @@ $bannerImage: '{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% e
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+
+			&:before, &:after {
+				@include vendor('transition', 'width 0.85s ease');
+				@include vendor('transitiondelay', '0.25s');
+				background: _palette(fgbold);
+				content: '';
+				display: block;
+				height: 2px;
+				position: absolute;
+				width: 100%;
+			}
+
+			&:before {
+				top: 0;
+				left: 0;
+			}
+
+			&:after {
+				bottom: 0;
+				right: 0;
+			}
 		}
 
 		p {
