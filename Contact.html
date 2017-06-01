@@ -8,23 +8,23 @@ permalink: /contact
 ---
 
 <h4>Contact Me</h4>
-<form method="post" action="#">
+<form method="get" action="/inprogress">
 	<div class="row uniform">
 		<div class="6u 12u$(xsmall)">
-			<input type="text" name="email-name" id="email-name" value="" placeholder="Name" />
+			<input type="text" name="name" id="email-name" value="" placeholder="Name" />
 		</div>
 		<div class="6u$ 12u$(xsmall)">
-			<input type="email" name="email-email" id="email-email" value="" placeholder="Email" />
+			<input type="email" name="emailAddress" id="email-email" value="" placeholder="Email" />
 		</div>
 		<div class="12u$">
-			<textarea name="email-message" id="email-message" placeholder="Enter your message" rows="6"></textarea>
+			<textarea name="emailMessage" id="email-message" placeholder="Enter your message" rows="6"></textarea>
 		</div>
 		<div class="6u 12u$(small)">
-			<input type="checkbox" id="email-copy" name="email-copy">
+			<input type="checkbox" id="copyMe" name="email-copy">
 			<label for="email-copy">Email me a copy</label>
 		</div>
 		<div class="6u$ 12u$(small)">
-			<input type="checkbox" id="email-human" name="email-human">
+			<input type="checkbox" id="isHuman" name="email-human">
 			<label for="email-human">Not a robot</label>
 		</div>
 		<div class="12u$">
