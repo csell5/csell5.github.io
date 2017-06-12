@@ -185,9 +185,9 @@ $L:     1170px;
 
   .cd-read-more {
     float: right;
-    padding: .8em 1em;
-    background: $link;
-    color: $color-3;
+    //padding: .8em 1em;
+    //background: $link;
+    //color: $color-3;
     @include border-radius;
 
     .no-touch &:hover {
