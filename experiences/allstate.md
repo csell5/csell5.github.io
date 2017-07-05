@@ -2,20 +2,12 @@
 layout: page
 
 title: Clark Sell @ Allstate Insurance
-subTitle: 9 Years That Started in Consulting and ended in Program Management
-excerpt: 9 Years That Started in Consulting and ended in Program Management
+subTitle: ASDF
+excerpt: ASDF
 
 permalink: /experiences/allstate
 image: /images/banner-02.jpg
 ---
-
-## My Tenure Allstate Insurance Company
-
-abstract about my time at Allstate
-
-## Accomplishments
-
-* something
 
 ## Roles and Responsibilities
 

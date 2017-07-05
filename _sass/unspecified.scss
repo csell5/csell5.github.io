@@ -141,6 +141,10 @@ $L:     1170px;
     margin-top: -12px;
   }
 
+  &.cd-company-logo {
+    background: #ffffff;
+  }
+
   &.cd-picture {
     background: $color-4;
   }
@@ -250,6 +254,13 @@ $L:     1170px;
       @include font-size(16px);
     }
 
+    .cd-logo {
+      position: absolute;
+      width: 100%;
+      left: 122%;
+      top: 150px;
+    }
+
     .cd-timeline-block:nth-child(even) & {
       float: right;
 
@@ -269,6 +280,13 @@ $L:     1170px;
         left: auto;
         right: 122%;
         text-align: right;
+      }
+
+      .cd-logo {
+        left: auto;
+        right: 122%;
+        text-align: right;
+        top: 150px;
       }
     }
   }

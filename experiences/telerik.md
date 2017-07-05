@@ -11,9 +11,4 @@ image: /images/banner-02.jpg
 
 # Telerik
 
-asdfasd
-
-asdf
-asdf
-asdf
 asdf
