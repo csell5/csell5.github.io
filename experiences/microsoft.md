@@ -9,16 +9,6 @@ permalink: /experiences/microsoft
 image: /images/banner-02.jpg
 ---
 
-## My Tenure Microsoft
-
-abstract about my time at Microsoft
-
-## Accomplishments
-
-* something
-
-<hr />
-
 ## Roles and Responsibilities
 
 <div class="job-role-date">July 2013 - May 2014</div>

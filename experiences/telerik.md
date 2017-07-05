@@ -11,4 +11,4 @@ image: /images/banner-02.jpg
 
 # Telerik
 
-asdf
+Coming Soon.

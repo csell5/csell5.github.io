@@ -76,7 +76,7 @@ $L:     1170px;
     content: '';
     position: absolute;
     top: 0;
-    left: 18px;
+    left: 35px;
     height: 100%;
     width: 4px;
     background: darken($background, 5%);
@@ -125,20 +125,20 @@ $L:     1170px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
+  width: 75px;
+  height: 75px;
+  // border-radius: 50%;
+  // box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
 
   img {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 75px;
+    height: 75px;
     position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -12px;
+    // left: 50%;
+    // top: 50%;
+    // margin-left: -12px;
+    // margin-top: -12px;
   }
 
   &.cd-company-logo {
@@ -158,10 +158,10 @@ $L:     1170px;
   }
 
   @include MQ(L) {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -37px;
   }
 }
 
@@ -169,8 +169,9 @@ $L:     1170px;
   position: relative;
   margin-left: 60px;
   //background: $color-3;
-  @include border-radius;
+  //@include border-radius;
   padding: 1em;
+  padding-left: 3em;
   //box-shadow: 0 3px 0 darken($background, 5%);
   @include clearfix;
 
@@ -201,7 +202,7 @@ $L:     1170px;
 
   .cd-date {
     float: left;
-    padding: .8em 0;
+    padding: .8em 2em;
     opacity: .7;
   }
 

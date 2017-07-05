@@ -2,8 +2,8 @@
 layout: page
 
 title: Clark Sell @ Allstate Insurance
-subTitle: ASDF
-excerpt: ASDF
+subTitle: Senior Application Architect and Web Developer
+excerpt: Senior Application Architect and Web Developer
 
 permalink: /experiences/allstate
 image: /images/banner-02.jpg
