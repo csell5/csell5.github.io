@@ -1,36 +1,37 @@
----
-layout: page
-title: Let's Connect!
-menu_name: Contact Me
-image: /images/banner-02.jpg
-
-permalink: /contact
+--- 
+layout: page 
+title: Let's Connect! 
+menu_name: Contact Me 
+image: /images/banner-02.jpg 
+permalink: /contact 
 ---
 
 <h4>Contact Me</h4>
-<form method="get" action="/inprogress">
+<form action="https://formspree.io/hello@unspecified.io" method="POST">
 	<div class="row uniform">
 		<div class="6u 12u$(xsmall)">
 			<input type="text" name="name" id="email-name" value="" placeholder="Name" />
 		</div>
 		<div class="6u$ 12u$(xsmall)">
-			<input type="email" name="emailAddress" id="email-email" value="" placeholder="Email" />
+			<input type="email" name="_replyto" id="email-email" value="" placeholder="Your email" />
 		</div>
 		<div class="12u$">
 			<textarea name="emailMessage" id="email-message" placeholder="Enter your message" rows="6"></textarea>
 		</div>
-		<div class="6u 12u$(small)">
-			<input type="checkbox" id="copyMe" name="email-copy">
-			<label for="email-copy">Email me a copy</label>
-		</div>
 		<div class="6u$ 12u$(small)">
-			<input type="checkbox" id="isHuman" name="email-human">
-			<label for="email-human">Not a robot</label>
+			<input type="hidden" name="_next" value="http://unspecified.io/thanks" />
+			<input type="hidden" name="_subject" value="Your message from http://Unspecified.io!" />
+			<input type="text" name="_gotcha" style="display:none" />
 		</div>
+
 		<div class="12u$">
 			<ul class="actions">
-				<li><input type="submit" value="Send Message" class="special" /></li>
-				<li><input type="reset" value="Reset" /></li>
+				<li>
+					<input type="submit" value="Send Message" class="special" />
+				</li>
+				<li>
+					<input type="reset" value="Reset" />
+				</li>
 			</ul>
 		</div>
 	</div>
