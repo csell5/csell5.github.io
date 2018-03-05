@@ -8,7 +8,7 @@ menu_name: Terms Of Use
 permalink: /legal/termsofuse
 ---
 
-### Terms of Use
+## Terms of Use
 
 The website you have entered (unspecified.io, its sub-domains, affiliated websites, any mobile versions, and any services available therefrom) (the “Site”) is a copyrighted work owned and operated by Unspecified, LLC, a Illinois limited liability company with its principal offices in Spring Grove, Illinois (“Unspecified,” “we” or “us”).
 

@@ -8,7 +8,7 @@ menu_name: Privacy Policy
 permalink: /legal/privacy
 ---
 
-### Privacy Policy
+## Privacy Policy
 
 **This policy was last modified: March 4, 2018**
 
@@ -122,7 +122,7 @@ From time to time, we may modify this Privacy Policy to reflect, among other thi
 
 If you have any general questions about this Privacy Policy or other aspects of the Site or would like to correct, update or erase data provided to us, please email us at hello@Unspecified.io or write to us at:
 
-Unspecified, LLC
+Unspecified, LLC  
 Attention: Unspecified.io Privacy Policy  
 9109 Carol Lane  
 Spring Grove, IL 60081

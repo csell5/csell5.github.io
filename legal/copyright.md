@@ -8,7 +8,7 @@ menu_name: Copyright Policy
 permalink: /legal/copyright
 ---
 
-### Copyright Policy
+## Copyright Policy
 
 **This policy was last modified: March 4, 2018**
 
