@@ -13,6 +13,12 @@
     {% endif %}
     {% endfor %}
   </ul>
+    <ul class="copyright">
+      <li><a href='/legal/termsofuse'>Terms of Use</a></li>
+      <li><a href='/legal/copyright'>Copyright Policy</a></li>
+      <li><a href='/legal/privacy'>Privacy Policy</a></li>
+  </ul>
+  
   <ul class="copyright">
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
@@ -22,6 +28,6 @@
     {{ thisyear }}
     {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
     <li>unspecified <i class="fa fa-trademark" aria-hidden="true"></i></li>
-    <li>Spring Grove, IL</a></li>
+    <li>Spring Grove, IL</li>
   </ul>
 </footer>
